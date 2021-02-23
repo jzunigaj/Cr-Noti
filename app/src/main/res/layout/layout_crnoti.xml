@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Cardview
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    card_view:cardBackgroundColor="#E2E1E1"
+    card_view:cardCornerRadius"4dp"
+    android:focusable="true"
+    >
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/thumbnail_image1"
+        android:contentDescription="TODO" />
+        <TextView
+            tools:text="Titulo:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            tools:text="Descrpcion:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <Button
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/comparteme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/darker_gray"
+                android:text="@string/ver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+</android.support.v7.widget.Cardview>
